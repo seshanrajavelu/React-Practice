@@ -32,7 +32,7 @@ function Student({ id, name, age, present }) {
     { id: 15, name: "Oliver", age: 19, present: false },
   ];
   
-  function Component1() {
+  export default function Component1() {
     const [loading, setLoading] = useState(true);
     const [counter, setCounter] = useState(0);
     const [currentTime, setCurrentTime] = useState(new Date());

@@ -132,3 +132,28 @@ tbody tr:hover {
 th, td {
   text-align: center;
 }
+
+
+/* Basic styles for the navbar */
+.navbar {
+  display: flex; /* Arrange links horizontally */
+  justify-content: space-around; /* Evenly distribute links */
+  align-items: center; /* Vertically center links */
+  padding: 10px 20px; /* Add some padding */
+  background-color: #f0f0f0; /* Light gray background */
+  border-bottom: 1px solid #ddd; /* Add a border to the bottom */
+}
+
+/* Styles for the links */
+.navbar a {
+  color: #333; /* Dark gray text color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add some padding to links */
+  font-weight: bold; /* Make links bold */
+}
+
+/* Styles for the active link (optional) */
+.navbar a.active {
+  color: #007bff; /* Blue color for active link */
+  background-color: #e9ecef; /* Lighten background for active link */
+}

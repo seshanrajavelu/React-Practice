@@ -1,0 +1,73 @@
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* To-do list title */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #990000;
+  }
+  
+  /* Input field for adding new tasks */
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* To-do list container */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual to-do list item */
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Checkbox for marking tasks complete */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Text for to-do items */
+  span {
+    font-size: 16px;
+  }
+  
+  /* Strikethrough for completed tasks */
+  span[style] {
+    cursor: pointer;
+  }
+  
+  /* "Edit" button styles */
+  .edit {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* "Delete" button styles */
+  .delete {
+    background-color: transparent;
+    border: none;
+    color: #990000;
+    cursor: pointer;
+  }
